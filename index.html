@@ -5,24 +5,26 @@
 
 <head>
     <title>Mi portafolio personal</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <header>
+    
+    <header class="menu-fijo">
         <nav>
             <ul>
-                <a href="#Sobre Mi">Acerca de mí</a>
-                <a href="#Habilidades">Habilidades</a>
-                <a href="#Experiencia">Experiencia</a>
-                <a href="#Proyectos">Proyectos</a>
-                <a href="#Contacto">Contacto</a>
+                <a href="#sobre-Mi">Acerca de mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
             </ul>
         </nav>
-        <h1>Alejandro Bordón</h1>
+        <h1 class="animacion-titulo">Alejandro Bordón</h1>
         <h2>Desarrollador</h2>
     </header>
     <main>
-        <section id="Sobre Mi">
+        <section id="sobre-Mi">
             <h2>Acerca de mí</h2>
             <p>
                 Como desarrollador web junior. Estoy comprometido a seguir aprendiendo y mejorando continuamente
@@ -30,7 +32,7 @@
                 desarrollo web.
             </p>
         </section>
-        <section id="Habilidades">
+        <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
                 <li>HTML</li>
@@ -40,7 +42,7 @@
                 <li>Metodologías ágiles</li>
             </ul>
         </section>
-        <section id="Experiencia">
+        <section id="experiencia">
             <h2>Experiencia</h2>
             <ul>
                 <li>
@@ -64,7 +66,7 @@
                 </li>
             </ul>
         </section>
-        <section id="Proyectos">
+        <section id="proyectos">
             <h2>Proyectos</h2>
             <ul>
                 <li>
@@ -79,7 +81,7 @@
             </ul>
             </ul>
         </section>
-        <section id="Contacto">
+        <section id="contacto">
             <h2>Contacto</h2>
             <ul>
                 <li>Email: sologenshin.es@gmail.com</li>
@@ -97,10 +99,18 @@
                     </ul>
                 </li>
             </ul>
+            <h3>
+                <form>
+                    <input type="text" placeholder="Nombre"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <textarea placeholder="Ingrese aquí su comentario"></textarea><br>
+                    <button>Enviar</button>
+                </form>
+            </h3>
         </section>
 
     </main>
-
+    
     <footer>
         <p>Copyright &copy; 2024</p>
     </footer>
